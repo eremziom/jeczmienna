@@ -24,6 +24,6 @@ db.once('open', () => {
 db.on('error', err => console.log('Error: ' + err));
 
 const port = process.env.PORT || 8000;
-app.listen(port, 'localhost', () => {
+app.listen(port, '10.0.44.90', () => {
   console.log('Server is running on port : '+ port);
 });

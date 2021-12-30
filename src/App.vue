@@ -21,7 +21,7 @@ export default {
                 rtvagd: 'test123',
             } 
             await axios
-                .post(`http://localhost:8000/api/rtvagds`, payload)
+                .post(`http://10.0.44.90:8000/api/rtvagds`, payload)
                 .then(r => console.log(r.status))
                 .catch(e => console.log(e));
             console.log('message sent')
